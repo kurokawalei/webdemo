@@ -125,5 +125,13 @@ footer.text-muted.py-5 {
     border-right: 50px solid $mastercolor;
     border-bottom: 50px solid $mastercolor;
 
+    @include mob(){
+
+        border-left: 10px solid $mastercolor;
+        border-right: 10px solid $mastercolor;
+        border-bottom: 10px solid $mastercolor;
+
+    }
+
   
 }
