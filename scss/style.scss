@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import "system";
+
+
+
+
+header {
+
+
+    .bg-nav-color {
+        background: $mastercolor;
+    }
+
+    .info-text {
+        color: #fff;
+    }
+
+
+}
+
+
+
+
+main {
+
+
+    
+.filter {
+
+    margin-top: -25px;
+   
+    
+    .btn {
+        background:$mastercolor;
+        font-size: $font*1.4;
+        color: #fff;
+
+    }
+
+    @include mob(){
+        justify-content: center !important;
+    }
+  
+   
+  
+}
+
+
+    h1.fw-light {
+        color: #fff;
+    }
+
+    p {
+        color: #fff;
+    }
+
+    p.card-text {
+        color: #375267;
+        text-align: center;
+        font-size: $font*1.4;
+    }
+
+    .master-header {
+        background: url(https://cdn.stocksnap.io/img-thumbs/960w/watch-phone_TQAYEGZPQZ.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        height: 509px;
+      
+
+    }
+
+    border-left: 50px solid $mastercolor;
+    border-right: 50px solid $mastercolor;
+
+    @include mob(){
+
+        border-left: 10px solid $mastercolor;
+        border-right: 10px solid $mastercolor;
+
+    }
+
+
+    .btn-style {
+        color: #333;
+        font-size: $font*1.15;
+        padding: 5px 100px;
+        border: none;
+        background-color: #FFE095;
+        -webkit-box-shadow: 0 5px #ff9100;
+        box-shadow: 0 5px #ff9100;
+        text-align: center;
+        border-radius: 5px;
+        border: 1px solid #FF9100;
+        transition: all 0.5s ease;
+
+
+        &:hover {
+            -webkit-transition: all .5s ease;
+            font-weight: 500;
+            transition: all .5s ease;
+            text-decoration: none;
+            -webkit-transform: translate(0,5px);
+            transform: translate(0,5px);
+            -webkit-box-shadow: 0 2px #e5a73f;
+            box-shadow: 0 2px #e5a73f;
+            background-color: #FFE095;
+            color: #333;
+            border-color: #FF9100;
+        }
+        
+        
+        }
+
+       
+        
+}
+
+
+
+
+
+footer.text-muted.py-5 {
+    border-left: 50px solid $mastercolor;
+    border-right: 50px solid $mastercolor;
+    border-bottom: 50px solid $mastercolor;
+
+  
+}
