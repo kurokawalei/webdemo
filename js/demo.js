@@ -47,7 +47,7 @@ const data =
 
     },  
     {
-        name:"流量動物形象網",
+        name:"流浪動物形象網",
         link:"http://webdemo.byethost11.com/animal/",
         img:"images/79.png",
         type:"活動網站"
@@ -79,6 +79,13 @@ const data =
         name:"旭東環保科技",
         link:"http://webdemo.byethost11.com/rise/",
         img:"images/75.png",
+        type:"網站"
+
+    }, 
+    {
+        name:"茶湯會徵才網站",
+        link:"https://www.1111tc.com.tw/tp-tea/index.asp",
+        img:"images/86.png",
         type:"網站"
 
     }, 
@@ -304,7 +311,7 @@ const data =
 
     },
     {
-        name:"哈比人活動葉面",
+        name:"哈比人活動頁面",
         link:"https://central.1111.com.tw/14sp/hobbit/index.asp",
         img:"images/024.png",
         type:"活動網站"
