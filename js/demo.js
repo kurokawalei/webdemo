@@ -33,6 +33,20 @@ const data =
 
     },  
     {
+        name:"中部職缺版EDM",
+        link:"http://webdemo.byethost11.com/newcenter1111-65/view.htm",
+        img:"images/89.png",
+        type:"EDM"
+
+    },
+    {
+        name:"師範大學-藝術學院",
+        link:"http://webdemo.byethost11.com/collage/",
+        img:"images/87.png",
+        type:"網站"
+
+    },
+    {
         name:"智慧機械雲",
         link:"http://webdemo.byethost11.com/tami/",
         img:"images/81.png",
@@ -82,6 +96,13 @@ const data =
         type:"網站"
 
     }, 
+    {
+        name:"南投就業徵才博覽會",
+        link:"http://webdemo.byethost11.com/nantoujob/",
+        img:"images/88.png",
+        type:"網站"
+
+    },
     {
         name:"茶湯會徵才網站",
         link:"https://www.1111tc.com.tw/tp-tea/index.asp",
