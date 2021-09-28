@@ -97,6 +97,7 @@ $( window ).scroll(function(){
 } )
 
 const btn = document.querySelector('.navbar-toggler');
+
 btn.addEventListener('click' , (e)=> {
 
  if( e.target.getAttribute('class') == "bi bi-list"  ) {
