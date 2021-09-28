@@ -168,6 +168,13 @@ const data =
 
     },
     {
+        name:"我的下班生活",
+        link:"https://www.1111tc.com.tw/18sp/wonder/index.asp",
+        img:"images/91.png",
+        type:"活動網站"
+
+    },
+    {
         name:"周年慶活動-我的心肌",
         link:"https://www.1111tc.com.tw/17sp/scheming/index.asp",
         img:"images/66.png",
@@ -237,6 +244,13 @@ const data =
         link:"https://www.1111tc.com.tw/",
         img:"images/57.png",
         type:"網站"
+
+    },
+    {
+        name:"上班族必勝髮",
+        link:"https://www.1111tc.com.tw/17sp/kafen/index.asp",
+        img:"images/90.png",
+        type:"活動網站"
 
     },{
         name:"幕顏醫美診所",
