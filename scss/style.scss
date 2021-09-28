@@ -156,7 +156,11 @@ main {
         
         }
 
-       
+       .card {
+           & > a {
+               min-height: 276px;
+           }
+       }
         
 }
 
