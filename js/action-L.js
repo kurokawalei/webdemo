@@ -15,8 +15,6 @@ filterBtn.addEventListener( 'click' , function(e){
 })
 
 
-
-
 //組元素
 function renderHTML(type) {
 
@@ -77,8 +75,36 @@ function renderHTML(type) {
 renderHTML("全部");
 
 
+//
 
 
 
 
+$( window ).scroll(function(){
 
+  let wwh = $(document).height();
+ // let wh = $(window).height() / 2;
+  let sr = $(window).scrollTop();
+
+
+  if ($(window).scrollTop() > wwh / 2 ) {
+    $('header').addClass('fixed');
+   
+  } else {
+    $('header').removeClass('fixed');
+    }
+
+} )
+
+const btn = document.querySelector('.navbar-toggler');
+btn.addEventListener('click' , (e)=> {
+
+ if( e.target.getAttribute('class') == "bi bi-list"  ) {
+  
+  e.target.classList.remove('bi-list') ;
+  e.target.classList.add('bi-x-square');
+ }else {
+  e.target.classList.remove('bi-x-square') ;
+  e.target.classList.add('bi-list');
+ }  
+} )

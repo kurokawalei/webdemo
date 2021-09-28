@@ -5,7 +5,8 @@
 
 
 header {
-
+    top: -50px;
+    transition: all 0.35s ease;
 
     .bg-nav-color {
         background: $mastercolor;
@@ -14,6 +15,42 @@ header {
     .info-text {
         color: #fff;
     }
+
+    &.fixed {
+      
+            position: fixed;
+            width: 100%;
+            z-index: 10;
+            top: 0;
+            transition: all 0.35s ease;
+         
+     
+    }
+
+    .navbar-dark {
+
+        .navbar-toggler {
+            color: rgba(255,255,255,1);
+            border-color: rgba(255,255,255,.1);
+            font-size: 2rem;
+            line-height: 48px;
+            outline: none;
+
+            &:focus {
+                box-shadow:none;
+            }
+        }
+
+        .navbar-toggler-icon {
+            background-image: none;
+            outline: none;
+        }
+
+
+    }
+    
+    
+ 
 
 
 }
@@ -63,6 +100,7 @@ main {
         color: #375267;
         text-align: center;
         font-size: $font*1.4;
+        font-weight: bold;
     }
 
     .master-header {
@@ -139,4 +177,24 @@ footer.text-muted.py-5 {
     }
 
   
+}
+
+#gotop {
+    transform: translateY(0px) rotate(180deg);
+    width: 35px;
+    height: 35px;
+    color: #00bcd4;
+    display: block;
+    animation: move 2s ease infinite;
+}
+
+@-webkit-keyframes move {
+
+    50%{
+        transform: rotate(180deg) translateY(15px);
+    }
+
+    100% {
+        transform: rotate(180deg) translateY(0px);
+    }
 }

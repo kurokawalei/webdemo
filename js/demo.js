@@ -339,13 +339,6 @@ const data =
 
     },
     {
-        name:"保全公司",
-        link:"1111.com.tw",
-        img:"images/009.jpg",
-        type:"網站"
-
-    },
-    {
         name:"學校畢業專題(FLASH)",
         link:"",
         img:"images/018.jpg",
