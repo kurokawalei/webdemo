@@ -74,6 +74,9 @@ main {
 
     .row.py-lg-5{
         background: rgba(0,0,0,.5);
+        @include mob(){
+            padding-top: 15px;
+        }
     }
 
 
@@ -88,6 +91,7 @@ main {
         font-size: $font*1.4;
         color: #fff;
         padding: 10px 25px;
+        min-width: 160px;
 
     }
 

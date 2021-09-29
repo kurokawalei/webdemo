@@ -29,11 +29,14 @@ const filterBtn = document.querySelector('.filter-list');
 
 
 filterBtn.addEventListener( 'click' , function(e){
-
    if( e.target.nodeName == "UL" ){
     return false
    }else{
     renderHTML(e.target.dataset.value);
+    const btn = document.querySelector('.btn');
+    //console.log(btn);
+    btn.textContent = e.target.dataset.value;
+
    }
 })
 
