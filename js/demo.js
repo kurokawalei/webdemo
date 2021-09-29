@@ -182,6 +182,13 @@ const data =
 
     },
     {
+        name:"小資女心肌養成術",
+        link:"https://central.1111.com.tw/15sp/lightbio/",
+        img:"images/029.jpg",
+        type:"活動網站"
+
+    },
+    {
         name:"新鮮人，好好愛自己",
         link:"https://www.1111tc.com.tw/17sp/cellina/index.asp",
         img:"images/65.png",

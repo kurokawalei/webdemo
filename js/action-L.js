@@ -11,7 +11,12 @@ const filterBtn = document.querySelector('.filter-list');
 
 
 filterBtn.addEventListener( 'click' , function(e){
-   renderHTML(e.target.dataset.value);
+
+   if( e.target.nodeName == "UL" ){
+    return false
+   }else{
+    renderHTML(e.target.dataset.value);
+   }
 })
 
 
@@ -30,7 +35,7 @@ function renderHTML(type) {
       
     str+= ` <div class="col" data-type="${item.type}">
     <div class="card shadow-sm animate__animated animate__fadeInUp wow">
-     <a href="${item.link}" target="_blank"><img src="${item.img}" class="img-fluid"></a>
+     <a href="${item.link}" target="_blank" title="${item.name}"><img src="${item.img}" class="img-fluid"></a>
       <div class="card-body">
         <p class="card-text">${item.name}</p>
         <div class="d-flex justify-content-center align-items-center">
@@ -49,7 +54,7 @@ function renderHTML(type) {
 
      str+=` <div class="col" data-type="${item.type}">
      <div class="card shadow-sm animate__animated animate__fadeInUp wow">
-      <a href="${item.link}" target="_blank"><img src="${item.img}" class="img-fluid"></a>
+      <a href="${item.link}" target="_blank" title="${item.name}"><img src="${item.img}" class="img-fluid"></a>
        <div class="card-body">
          <p class="card-text">${item.name}</p>
          <div class="d-flex justify-content-center align-items-center">
@@ -75,16 +80,10 @@ function renderHTML(type) {
 renderHTML("全部");
 
 
-//
-
-
-
-
 $( window ).scroll(function(){
 
   let wwh = $(document).height();
- // let wh = $(window).height() / 2;
-  let sr = $(window).scrollTop();
+ 
 
 
   if ($(window).scrollTop() > wwh / 2 ) {
@@ -108,4 +107,4 @@ btn.addEventListener('click' , (e)=> {
   e.target.classList.remove('bi-x-square') ;
   e.target.classList.add('bi-list');
  }  
-} )
+})
