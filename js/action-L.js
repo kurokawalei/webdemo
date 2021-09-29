@@ -1,4 +1,22 @@
 
+
+
+
+   
+  $(window).load(function(e) {
+    window.setTimeout(function(){
+    $('#warp').addClass('animate__fadeIn animate__animated').css('opacity','1')
+    $('#loading').css('display','none');
+    },1500)
+
+})
+
+    
+
+
+
+
+
 new WOW().init();
 
 const list = document.querySelector('.list');
