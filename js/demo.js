@@ -19,7 +19,7 @@ const data =
     {
         name: "fun中台灣",
         link: "https://www.1111tc.com.tw/fun/",
-        img: "images/85.png",
+        img: "images/85.jpg",
         type: "網站"
 
     },
