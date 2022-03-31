@@ -3,6 +3,12 @@
 const data =
 
     [{
+        name: "n25茶飲官網",
+        link: "http://webdemo.byethost11.com/N25/",
+        img: "images/92.jpg",
+        type: "網站"
+
+    },{
         name: "2050台中願景計畫",
         link: "http://webdemo.byethost11.com/vision/",
         img: "images/86.jpg",
