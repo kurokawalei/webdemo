@@ -3,6 +3,13 @@
 const data =
 
     [{
+        name: "黑川玩具店(vue3)",
+        link: "https://kurokawalei.github.io/vue-finall-lesson/#/",
+        img: "images/93.jpg",
+        type: "網站"
+
+    },
+    {
         name: "n25茶飲官網",
         link: "http://webdemo.byethost11.com/N25/",
         img: "images/92.jpg",
