@@ -3,6 +3,13 @@
 const data =
 
     [{
+        name: "新一代媒體官網",
+        link: "https://www.news-age.tw/",
+        img: "images/94.jpg",
+        type: "網站"
+
+    },
+    {
         name: "黑川玩具店(vue3)",
         link: "https://kurokawalei.github.io/vue-finall-lesson/#/",
         img: "images/93.jpg",
