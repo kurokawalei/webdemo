@@ -16,6 +16,16 @@
     opacity: 0;
 }
 
+#loadingline {
+    background-color: #EF4848;
+    height: 5px;
+    width: 0px;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    z-index: 20;
+  }   
+
 header {
     top: -50px;
     transition: all 0.35s ease;
