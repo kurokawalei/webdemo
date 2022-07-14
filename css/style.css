@@ -64,6 +64,10 @@ main .row.py-lg-5 {
     padding-top: 15px;
   }
 }
+main .filterBlock select {
+  border: #00bcd4 solid 2px;
+  font-size: 1.25rem;
+}
 main .filter {
   margin-top: -25px;
 }
