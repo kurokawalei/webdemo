@@ -122,8 +122,8 @@
                         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                             <div class="col" v-for="(item,i) in list" :key="item" data-type="item.type">
                                 <div class="card shadow-sm animate__animated animate__fadeInUp wow">
-                                    <a :href="item.link" target="_blank" title="item.name"><img :src="item.img"
-                                            class="img-fluid" /></a>
+                                    <a :href="item.link" target="_blank" title="item.name">
+                                        <img :src="item.img" loading="lazy"  class="img-fluid" /></a>
 
                                     <div class="card-body">
                                         <p class="card-text">{{item.name}}</p>
