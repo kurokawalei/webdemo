@@ -85,6 +85,8 @@ main .filter .btn {
 }
 main h1.fw-light {
   color: #fff;
+  font-weight: 700 !important;
+  margin-bottom: 15px;
 }
 main p {
   color: #fff;
