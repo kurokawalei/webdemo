@@ -3,6 +3,12 @@
 const data =
 
     [{
+        name: "meodel預約網站",
+        link: "https://newsageadmin.github.io/model/",
+        img: "images/95.jpg",
+        type: "網站"
+
+    },{
         name: "新一代媒體官網",
         link: "https://www.news-age.tw/",
         img: "images/94.jpg",
