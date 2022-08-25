@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://www.news-age.tw/css/bootstrap.min.css" rel="stylesheet" rel="preconnect" rel="dns-prefetch">
+
+    <style>
+        html {
+
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+        ul {
+
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+
+        }
+
+        li {
+            padding: 15px;
+            text-align: center;
+
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+
+        }
+
+        nav {
+            background-color: aquamarine;
+
+
+        }
+
+        @media (max-width: 769px) {
+
+            nav {
+                display: none;
+            }
+
+            .menu {}
+
+
+
+            .menuMain ul {
+
+                position: absolute;
+                width: 100%;
+                background: #8bc34a;
+                left: 0;
+                top: -500%;
+                transition: all 0.5s ease;
+                z-index: -1;
+
+            }
+
+            .menuMain ul.vis {
+
+
+                top: 25px;
+                transition: all 0.5s ease;
+                z-index: 1;
+
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row position-relative">
+        <div class="col-2  align-self-center text-center">LOGO</div>
+        <div class="col-10">
+            <nav class="d-flex">
+                <div class="col menuMain">
+                    <ul class="row">
+                        <li class="col-md col-6"><a href="#">選項1</a></li>
+                        <li class="col-md col-6"><a href="#">選項2</a></li>
+                        <li class="col-md col-6"><a href="#">選項3</a></li>
+                        <li class="col-md col-6"><a href="#">選項4</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-1 d-md-none align-self-center text-right menu">
+                    <a href="#">三</a>
+                </div>
+
+
+
+
+
+            </nav>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://www.1111tc.com.tw/15sp/boss/js/jquery-1.11.2.min.js"></script>
+    <script>
+        $(function () {
+            $('.menu').click(function () {
+                $('.menuMain ul').toggleClass('vis');
+            })
+        })
+    </script>
+</body>
+
+</html>

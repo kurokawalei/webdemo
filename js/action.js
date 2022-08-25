@@ -1,7 +1,5 @@
 
 
-
-
    
   $(window).load(function(e) {
     window.setTimeout(function(){
@@ -10,11 +8,6 @@
     },1500)
 
 })
-
-
-
-
-
 
 
 
