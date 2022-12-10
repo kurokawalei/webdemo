@@ -10,6 +10,7 @@
     <meta content="這是KURO君以往來的網作品集，集結各式不同種類型的網站" name="description" />
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" rel="preconnect" rel="dns-prefetch">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" rel="preconnect" rel="dns-prefetch">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"  rel="stylesheet" rel="preconnect" rel="dns-prefetch">
     <link href="css/style.css" rel="stylesheet" />
@@ -79,8 +80,9 @@
                         </a>
                         <button aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"
                             class="navbar-toggler" data-bs-target="#navbarHeader" data-bs-toggle="collapse"
-                            type="button">
-                            <span class="bi bi-list"></span>
+                            type="button" @click="showMobileMenu = !showMobileMenu" :class="{ active: showMobileMenu }">
+                            <span class="bi bi-x-lg" v-if="showMobileMenu"></span>
+                            <span class="bi bi-list" v-else></span>
                         </button>
                     </div>
                 </div>

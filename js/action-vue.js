@@ -5,7 +5,9 @@ const app = createApp({
     data() {
         return {
             list: [],
-            type: "全部"
+            type: "全部",
+            showMobileMenu: false
+            
         }
     },
     methods: {
